@@ -3,10 +3,10 @@ const Headers = () => {
   return (
 
     < div className='flex justify-between p-6' >
-      <div className='flex items-center gap-2'>
+      <Link href="/" className='flex items-center gap-2'>
         <img src='/images/logo.png' alt='logo' className='h-5' />
         <p className='text-xs md:text-sm font-bold'>Sekolah Kripto Indonesia</p>
-      </div>
+      </Link>
       <div className='hidden md:flex items-center gap-2'>
         <p className='text-sm'>Kelas Online</p>
       </div>
