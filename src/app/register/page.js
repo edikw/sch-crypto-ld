@@ -14,8 +14,7 @@ export default function Register() {
           </div>
         </div>
         <div className="md:container md:mx-auto">
-
-          <div className="md:flex justify-around items-center">
+          <div className="md:flex justify-around">
             <div className="hidden md:block">
               <img src="/images/imgAuth.png" className="h-[750px]" />
             </div>
