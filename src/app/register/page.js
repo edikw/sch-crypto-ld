@@ -1,3 +1,4 @@
+import Link from 'next/link'
 export default function Register() {
   return (
     <div className="bg-black">
@@ -67,7 +68,7 @@ export default function Register() {
                 <button className="border border-gray-400 px-6 py-3 rounded-xl text-white text-xs md:text-sm w-full flex items-center gap-2 text-center justify-center"><img src="/images/google.png" className="w-5" /> <p>Masuk Dengan Google</p></button>
               </div>
               <div className="text-center">
-                <p className="text-sm text-gray-500">Sudah punya akun? <a href="/login" className="text-primary">Login</a></p>
+                <p className="text-sm text-gray-500">Sudah punya akun? <Link href="/login" className="text-primary">Login</Link></p>
               </div>
             </div>
 

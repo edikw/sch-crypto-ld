@@ -45,7 +45,7 @@ export default function Login() {
                 <button className="border border-gray-400 px-6 py-3 rounded-xl text-white text-xs md:text-sm w-full flex items-center gap-2 text-center justify-center"><img src="/images/google.png" className="w-5" /> <p>Masuk Dengan Google</p></button>
               </div>
               <div className="text-center">
-                <p className="text-sm text-gray-500">Belum punya akun? <a href="/register" className="text-primary">Daftar Sekarang</a></p>
+                <p className="text-sm text-gray-500">Belum punya akun? <Link href="/register" className="text-primary">Daftar Sekarang</Link></p>
               </div>
             </div>
 
