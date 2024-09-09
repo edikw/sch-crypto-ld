@@ -130,7 +130,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
 
             {school.map((item, index) => (
-              <div className="shadow-md bg-[#131313] p-2 rounded-2xl cursor-pointer opacity-65 hover:scale-110 duration-300 hover:opacity-100" key={index}>
+              <Link href='/kelas-online/binance-smart-chain' className="shadow-md bg-[#131313] p-2 rounded-2xl cursor-pointer opacity-65 hover:scale-110 duration-300 hover:opacity-100" key={index}>
                 <img src="/images/Binance.png" className="rounded-2xl w-full object-cover" />
                 <div className="flex justify-between my-2">
                   <p className="text-sm font-bold">{item.name}</p>
@@ -145,7 +145,7 @@ export default function Home() {
                   <p className="text-primary font-bold text-sm">{item.price}</p>
                   <button className="bg-primary px-2 border border-black py-2 px-3 rounded-full text-black text-xs">Beli Kelas</button>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

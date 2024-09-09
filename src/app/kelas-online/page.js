@@ -129,7 +129,7 @@ export default function ClassOnline() {
         <div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
             {school.map((item, index) => (
-              <Link href='/kelas-online/oke' className="shadow-md opacity-65 bg-[#131313] p-2 rounded-2xl cursor-pointer hover:scale-110 hover:opacity-100 duration-300" key={index}>
+              <Link href='/kelas-online/binance-smart-chain' className="shadow-md opacity-65 bg-[#131313] p-2 rounded-2xl cursor-pointer hover:scale-110 hover:opacity-100 duration-300" key={index}>
                 <img src="/images/Binance.png" className="rounded-2xl w-full object-cover" />
                 <div className="flex justify-between my-2">
                   <p className="text-sm font-bold">{item.name}</p>
