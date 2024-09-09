@@ -114,8 +114,8 @@ export default function ClassOnline() {
 
           {/* HERO */}
           <div className="flex p-6 justify-center text-center py-10 md:py-20 ">
-            <div className="w-1/2">
-              <div className="text-[32px] font-[600] leading-0 mb-4 md:text-[32px] md:font-[600] md:leading-[40px] md:mb-[20px]">
+            <div className="md:w-1/2">
+              <div className="text-[24px] font-[600] leading-0 mb-4 md:text-[32px] md:font-[600] md:leading-[40px] md:mb-[20px]">
                 <h1 style={styles.gradientText}>Apakah Anda tertarik untuk
                   belajar tentang Kripto dan Blockchain?
                   tapi tidak tahu harus mulai dari mana?</h1>
@@ -125,7 +125,7 @@ export default function ClassOnline() {
           {/* HERO */}
         </div>
       </div>
-      <div className="md:container md:mx-auto my-20">
+      <div className="md:container md:mx-auto my-10 md:my-20 p-4 md:p-0">
         <div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
             {school.map((item, index) => (
