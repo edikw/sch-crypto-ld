@@ -2,7 +2,7 @@
 const Footers = () => {
   return (
     <div className="bg-black container mx-auto p-4 md:p-6 py-20">
-      <div className="md:grid grid-cols-2 gap-6">
+      <div className="md:grid grid-cols-2 gap-6 pb-6 md:pb-12">
         <div className="mb-6 md:mb-0">
           <div className="flex items-center gap-2 mb-4">
             <img src="/images/logo.png" className="w-5" />
@@ -37,7 +37,14 @@ const Footers = () => {
           </div>
         </div>
       </div>
-
+      <hr className="border border-gray-700 mb-4 md:mb-6 " />
+      <div className="md:flex justify-between text-xs text-gray-400">
+        <p className="mb-4 md:mb-0">Copyright © {new Date().getFullYear()} Sekolah Kripto Indonesia. All Rights Reserved.</p>
+        <div className="md:flex items-center gap-3">
+          <p className="underline">Syarat dan ketentuan</p>
+          <p className="underline">Kebijakan privasi</p>
+        </div>
+      </div>
     </div>
   );
 };
