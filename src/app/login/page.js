@@ -59,6 +59,6 @@ const styles = {
     backgroundImage: 'url("/images/bg1.png")', // Path to the image in public folder
     backgroundSize: 'cover',  // Makes sure the image covers the entire area
     backgroundPosition: 'center',  // Centers the image
-    height: '100vh',
+    minHeight: '100vh',
   },
 }
