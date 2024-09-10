@@ -18,7 +18,7 @@ export default function Register() {
             <div className="hidden md:block">
               <img src="/images/imgAuth.png" className="h-[750px]" />
             </div>
-            <div className="bg-[#131313] mx-4 md:mx-0 rounded-xl p-8 h-max self-start md:mt-8 mb-6 ">
+            <div data-aos="zoom-in-up" data-aos-duration="1000" className="bg-[#131313] mx-4 md:mx-0 rounded-xl p-8 h-max self-start md:mt-8 mb-6 ">
               <div className="mb-8">
                 <p className="text-[30px] md:text-[44px] font-[500] mb-0">Buat Akun Kamu</p>
                 <p className="text-sm text-gray-500">Masuk akun, mulai belajar dan kumpulkan reward</p>

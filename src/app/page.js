@@ -1,3 +1,4 @@
+
 import Footers from "@/components/Footers";
 import Link from "next/link";
 import Headers from "@/components/Headers";
@@ -93,7 +94,7 @@ export default function Home() {
               <div className="border w-max mx-auto border-gray-700 bg-gray-900 rounded-full px-6 py-1 mb-4">
                 <p>#BelajarBareng</p>
               </div>
-              <div>
+              <div data-aos="fade-right" data-aos-duration="1000">
                 <div className=" text-[50px] font-[600] leading-0 mb-4 md:text-[96px] md:font-[600] md:leading-[112px] md:mb-[20px]">
                   <h1>Pelajari</h1>
                   <h1 style={styles.gradientText}>Cara Kerja Kripto &</h1>
@@ -130,7 +131,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
 
             {school.map((item, index) => (
-              <Link href='/kelas-online/binance-smart-chain' className="shadow-md bg-[#131313] p-2 rounded-2xl cursor-pointer opacity-65 hover:scale-110 duration-300 hover:opacity-100" key={index}>
+              <Link data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" data-aos-duration="1000" href='/kelas-online/binance-smart-chain' className="shadow-md bg-[#131313] p-2 rounded-2xl cursor-pointer opacity-65 hover:scale-110 duration-300 hover:opacity-100" key={index}>
                 <img src="/images/Binance.png" className="rounded-2xl w-full object-cover" />
                 <div className="flex justify-between my-2">
                   <p className="text-sm font-bold">{item.name}</p>
@@ -168,7 +170,8 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             {articles.map((item, index) => (
-              <div className="shadow-md bg-[#131313] p-2 rounded-2xl" key={index}>
+              <div data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" data-aos-duration="1000" className="shadow-md bg-[#131313] p-2 rounded-2xl" key={index}>
                 <img src="/images/articles.png" className=" w-full object-cover" />
                 <div className="flex justify-between my-2">
                   <p className="text-sm font-bold">{item.name}</p>
@@ -191,7 +194,8 @@ export default function Home() {
           <div style={styles.bgDown}>
             <div>
               <div className="flex justify-center items-center text-center py-10 md:py-20">
-                <div>
+                <div data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                   <div className="text-[52px] font-[500] leading-[64px] mb-[20px]">
                     <h1 style={styles.gradientText}>Jelajahi Dunia</h1>
                     <h1 style={styles.gradientText}>Kripto & Blockchain</h1>

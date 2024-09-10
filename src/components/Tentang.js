@@ -3,7 +3,8 @@ const Tentang = () => {
 
   return (
 
-    <div className="text-black md:w-1/2 my-10" >
+    <div data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom" data-aos-duration="1000" className="text-black md:w-1/2 my-10" >
       <h1 className="mb-6 font-bold text-sm">Description</h1>
       <p className="text-sm font-thin text-gray-600 mb-6">Binance Smart Chain (BSC) adalah blockchain yang dikembangkan oleh Binance, salah satu exchange cryptocurrency terbesar. BSC didesain untuk memproses transaksi dengan cepat, biaya rendah, dan mendukung smart contracts. Arsitekturnya yang kompatibel dengan Ethereum Virtual Machine (EVM) memudahkan para pengembang untuk memindahkan dApps yang ada dari Ethereum ke BSC. Kombinasi faktor tersebut, ditambah dengan dukungan besar dari Binance, telah membuat BSC sangat populer untuk proyek-proyek DeFi, NFT, dan game yang menginginkan alternatif dari Ethereum yang lebih cepat dan terjangkau.</p>
       <h1 className="mb-6 font-bold text-sm">Sneak Peak</h1>
