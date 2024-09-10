@@ -54,9 +54,9 @@ export default function ClassOnline() {
             </div>
             <div data-aos="fade-up"
               data-aos-anchor-placement="top-bottom" data-aos-duration="1000" className="my-10">
-              <img src="/images/Binance.png" className="rounded-xl w-[700px]" />
+              <img src="/images/Binance.png" className="rounded-xl md:w-[400px] lg:w-[600px] xl:w-[700px]" />
             </div>
-            <div data-aos="zoom-in-up" data-aos-duration="1000" className="bg-[#F6F6F6] rounded-xl p-6 md:w-[412px] text-black md:absolute md:top-[260px] md:right-0">
+            <div data-aos="zoom-in-up" data-aos-duration="1000" className="bg-[#F6F6F6] rounded-xl p-6 md:w-[300px] xl:w-[412px] text-black md:absolute md:top-[260px] md:right-10">
               <div>
                 <h2 className="text-lg mb-6">112 Materi (24 Jam)</h2>
                 <div className="flex justify-between items-center text-sm mb-4">

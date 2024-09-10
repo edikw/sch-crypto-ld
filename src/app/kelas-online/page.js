@@ -115,7 +115,7 @@ export default function ClassOnline() {
           {/* HERO */}
           <div className="flex p-6 justify-center text-center py-10 md:py-20 ">
             <div data-aos="fade-up"
-              data-aos-anchor-placement="top-bottom" data-aos-duration="3000" className="md:w-1/2">
+              data-aos-anchor-placement="top-bottom" data-aos-duration="1000" className="lg:w-1/2">
               <div className="text-[24px] font-[600] leading-0 mb-4 md:text-[32px] md:font-[600] md:leading-[40px] md:mb-[20px]">
                 <h1 style={styles.gradientText}>Apakah Anda tertarik untuk
                   belajar tentang Kripto dan Blockchain?
@@ -126,12 +126,12 @@ export default function ClassOnline() {
           {/* HERO */}
         </div>
       </div>
-      <div className="md:container md:mx-auto my-10 md:my-20 p-4 md:p-0">
+      <div className="md:container md:mx-auto my-10 md:my-20 p-4 md:p-6">
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-10">
             {school.map((item, index) => (
               <Link data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom" data-aos-duration="3000" href='/kelas-online/binance-smart-chain' className="shadow-md opacity-65 bg-[#131313] p-2 rounded-2xl cursor-pointer hover:scale-110 hover:opacity-100 duration-300" key={index}>
+                data-aos-anchor-placement="top-bottom" data-aos-duration="1000" href='/kelas-online/binance-smart-chain' className="shadow-md opacity-65 bg-[#131313] p-2 rounded-2xl cursor-pointer hover:scale-110 hover:opacity-100 duration-300" key={index}>
                 <img src="/images/Binance.png" className="rounded-2xl w-full object-cover" />
                 <div className="flex justify-between my-2">
                   <p className="text-sm font-bold">{item.name}</p>

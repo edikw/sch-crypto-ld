@@ -109,11 +109,11 @@ export default function Home() {
           </div>
           {/* HERO */}
         </div>
-        <div className="hidden md:block" style={styles.aksenBg}>
+        <div className="hidden xl:block" style={styles.aksenBg}>
           <img src="/images/bg2.png" />
         </div>
       </div>
-      <div className="md:container md:mx-auto p-4 md:p-0">
+      <div className="md:container md:mx-auto p-4 md:p-6">
         {/*KONTEN KELAS KAMI */}
         <div>
           <div className="py-10 md:pt-32">
@@ -128,7 +128,7 @@ export default function Home() {
               <Link href="/kelas-online" className="bg-primary px-6 py-2 flex justify-center rounded-full text-black text-xs md:text-sm">Lihat Semua</Link>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mb-10">
 
             {school.map((item, index) => (
               <Link data-aos="fade-up"

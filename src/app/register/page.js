@@ -14,8 +14,8 @@ export default function Register() {
           </div>
         </div>
         <div className="md:container md:mx-auto">
-          <div className="md:flex justify-around">
-            <div className="hidden md:block">
+          <div className="lg:flex justify-around">
+            <div className="hidden lg:block">
               <img src="/images/imgAuth.png" className="h-[750px]" />
             </div>
             <div data-aos="zoom-in-up" data-aos-duration="1000" className="bg-[#131313] mx-4 md:mx-0 rounded-xl p-8 h-max self-start md:mt-8 mb-6 ">
@@ -82,5 +82,6 @@ const styles = {
     backgroundImage: 'url("/images/bg1.png")', // Path to the image in public folder
     backgroundSize: 'cover',  // Makes sure the image covers the entire area
     backgroundPosition: 'center',  // Centers the image
+    height: '100vh'
   },
 }
